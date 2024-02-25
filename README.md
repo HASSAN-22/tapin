@@ -6,7 +6,7 @@
 - ` composer require hasan-22/tapin `.
 
 
-### ست کردن توکن و شناسه فروشگا
+### ست کردن توکن و شناسه فروشگاه
 
 ```php
 use Tapin\Tapin;
