@@ -6,6 +6,20 @@
 - ` composer require hasan-22/tapin `.
 
 
+### ست کردن توکن و شناسه فروشگا
+
+```php
+use Tapin\Tapin;
+
+$authKey = "jwt ***********************************************";
+$shopId = "********-****-****-****-***********";
+
+Tapin::setAuthKey($authKey);
+$response = Tapin::shopInfo($shopId);
+var_dump($response);
+```
+
+
 ### دریافت استان ها
 #### پارامتر ها
 | نام پارامتر  | توضیحات                                                                                          |
