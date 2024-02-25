@@ -1,0 +1,33 @@
+{
+    "name": "hasan-22/tapin",
+    "description": "Transportation with tapin",
+    "keywords": [
+        "hasan",
+        "php",
+        "topin",
+        "Transportation"
+    ],
+    "homepage": "https://github.com/HASSAN-22/tapin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hasan",
+            "email": "armiaevil@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tapin\\": "src/",
+            "Tapin\\Helpers\\": "src/Helpers/"
+        },
+        "files": [
+            "src/Helpers/Helpers.php"
+        ]
+    },
+    "require": {
+        "php": "^7.4",
+        "vlucas/phpdotenv": "^5.6",
+        "ext-curl": "*"
+    }
+}
